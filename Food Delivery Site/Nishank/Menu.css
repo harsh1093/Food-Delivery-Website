@@ -1,0 +1,394 @@
+ *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+.home{
+    height: 100%;
+    width: 100%;
+}
+
+
+.header{
+    height: 30%;
+    width: 100%;
+    background: linear-gradient(rgba(15,23,43,.9),rgba(12,23,43,.9)),url(https://media.istockphoto.com/id/1218254547/photo/varied-food-carbohydrates-protein-vegetables-fruits-dairy-legumes-on-wood.jpg?b=1&s=170667a&w=0&k=20&c=uGHRWrmqv4Nxdj7iUO4iYavWLjqFB3uwH1K3RQ9NID0=);
+    background-repeat: no-repeat;
+    background-size:1690px 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 73px;
+}
+
+.header-child{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.menu-logo-parent{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu-logo{
+    height: 100%;
+    width: 100%;
+    color: orange;
+    font-size: 22px;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-logo::after{
+    margin-left: 10px;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2.5px;
+    background-color: orange;
+}
+.menu-logo::before{
+    margin-right: 10px;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2.5px;
+    background-color: orange;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: rgb(1, 1, 1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.menu_nav_parent{
+    height:20%;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.menu_nav{
+    height: 100%;
+    width:100%;
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+  
+    
+}
+.card-1{
+    /* border: 1px solid black; */
+    color: rgb(18, 27, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.des-1{
+    height:70%;
+    width: 100%;
+    padding: 10px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.icon-title{
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 19px;
+    text-decoration: underline white;
+}
+.card-1:hover{
+    color: orange;
+}
+.icon-title:hover{
+    cursor: pointer;
+    color:orange;
+    text-decoration: underline;
+    font-size: 120%;
+}
+.item-parent{
+    margin-top:7%;
+    /* height: 100%;
+    width: 90%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.item{
+    height: 40%;
+    width:100%;
+    
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-bottom: 5%;
+    /* flex-direction: column; */
+   
+}
+hr{
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid orange;
+  
+}
+
+.dish{
+    height:80%;
+    width: 100%;
+    
+
+}
+.item-1{
+    border: 1px solid white;
+    padding: 15px;
+    height: 100%;
+    margin-right: 50px ;
+   /* background-color: aqua; */
+}
+.food-title{
+    color: orange;
+}
+.description{
+    height:10% 
+}
+.veg{
+    color: green;
+    font-size: 18px;
+}
+.amt{
+    font-size: larger;
+}
+sup{
+    padding-left: 5px;
+}
+.item-1:hover{
+    border: 1px solid black;
+    /* padding: 10px; */
+    height: 120%;
+    cursor: pointer;
+    box-shadow: 4px 0px 20px 0px rgba(128,128,128,0.8);
+}
+.description{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200px;
+}
+
+.invisible a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.invisible a:hover{
+    text-decoration: underline;
+    color: purple;
+}
+.invisible{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    padding-top: 10%;
+    /* visibility: hidden; */
+    
+}
+.invisible:hover{
+    visibility: visible;
+    color: black;
+}
+
+
+/* Footer */
+.footer{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(45, 47, 71);
+    display: flex;
+    flex-direction: column;
+}
+.content_footer{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    color: white;
+}
+.box1{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+.content_footer a{
+    color: white;
+}
+.box1 li a{
+    text-decoration: none;
+}
+.box1 li{
+    list-style-type: none;
+}
+.content_footer h2{
+    font-family:"Sofia", sans-serif;
+    color: orange;
+}
+.box1 a:hover{
+    color: orange;
+}
+.box2{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+.box3{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+.box4{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-bottom: 150px;
+}
+
+.box4 button{
+    height: 30px;
+    width: 100px;
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+    border-radius: 5px;
+}
+.box4 input{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
+.info_footer{
+    height: 15%;
+    width: 100%;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.card-1 a{
+    text-decoration: none;
+    color: rgb(18, 27, 68); ;
+    
+}
+/* Navigation bar styling */
+.nav_bar{
+    height: 10%;
+    width: 100%;
+    /* width: 91%; */
+    background-color: rgb(18, 27, 68);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Added position fixed style */
+    position: fixed; 
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    /* left: 77px; */
+}
+.logo{
+    padding-left: 60px;
+    font-size: 22px;
+}
+.logo h1{
+    color: orange;
+}
+.nav_list{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-weight: bold;
+}
+.nav_list li{
+    float: left;
+    list-style-type: none;
+    padding-left: 60px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.nav_bar a{
+    text-decoration: none;
+    color: white;
+}
+.nav_list button{
+    height: 50px;
+    width: 150px;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+}
+.nav_list button a{
+   color: white;
+   font-size: 18px;
+}
+.nav_list button:hover{
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+}
+.nav_list li a:hover{
+    cursor: pointer;
+   color: orange;
+   font-size: 110%;
+}
